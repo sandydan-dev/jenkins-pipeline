@@ -27,5 +27,10 @@ pipeline {
    
  
   }
+   post {
+        always {
+            echo "pipeline script completed"
+        }
+    }
 
 }
